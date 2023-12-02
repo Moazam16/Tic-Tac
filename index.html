@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <div>
+            <h3 id="user1">User 1</h3>
+            <h3 id="user2">User 2</h3>
+            <br>
+            <br>
+            <input type="text" name="" placeholder="Select X or O" id="firstUser">
+            <input type="text" name="" placeholder="Select X or O" id="secondUser" disabled>
+            <br><br>
+            <button onclick="startGame()">select</button>
+        </div>
+        <br>
+        <table id="table">
+            <tr>
+                <td onclick="game_programe(this)"></td>
+                <td onclick="game_programe(this)"></td>
+                <td onclick="game_programe(this)"></td>
+            </tr>
+            <tr>
+                <td onclick="game_programe(this)"></td>
+                <td onclick="game_programe(this)"></td>
+                <td onclick="game_programe(this)"></td>
+            </tr>
+            <tr>
+                <td onclick="game_programe(this)"></td>
+                <td onclick="game_programe(this)"></td>
+                <td onclick="game_programe(this)"></td>
+            </tr>
+        </table>
+    </center>
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
